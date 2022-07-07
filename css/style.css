@@ -1,0 +1,112 @@
+/* start global variables */
+
+:root {
+    --first-font: 'Open Sans', sans-serif;
+    --sec-font: 'Sansita', sans-serif;
+    --main-color: #6A4A22;
+    --sub-color: #3D393A;
+}
+
+/* end global variables */
+
+
+/* start navbar section */
+
+.navbar {
+    -webkit-box-shadow: -2px -1px 15px 7px rgba(0,0,0,0.5);
+    -moz-box-shadow: -3px -2px 30px 14px rgba(0,0,0,0.425);
+    box-shadow: -4px -3px 45px 5px rgba(0,0,0,0.35);
+    height: 15vh;
+}
+
+.navbar .container .logo {
+    width: 150px;
+}
+
+.navbar .container .menu ul {
+    list-style: none;
+    color: var(--main-color);
+    font-family: var(--sec-font);
+}
+
+.navbar .container .menu ul li {
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+@media (max-width: 600px) {
+    .navbar .container .logo {
+        width: 100px;
+    }
+
+    .navbar .container .menu ul li {
+        font-size: 17px;
+        text-transform: capitalize;
+    }
+}
+
+@media (max-width: 350px) {
+    .navbar .container .logo {
+        width: 70px;
+    }
+
+    .navbar .container .menu ul li {
+        font-size: 15px;
+        text-transform: capitalize;
+    }
+}
+
+/* end navbar section */
+
+
+/* start landing section */
+
+.landing {
+    position: relative;
+    height: 85vh;
+}
+
+.landing .background {
+    position: absolute;
+    background-image: url("../images/landing3.jpg");
+    background-size: cover;
+    background-position: center;
+    filter: brightness(40%);
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.landing .container{
+    height: 90%;
+}
+
+.landing .container .text-section {
+    width: 40%;
+    color: white;
+    z-index: 5;
+}
+
+.landing .container .text-section .big-line {
+    color: var(--main-color);
+    font-family: var(--sec-font);
+    font-size: 60px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.landing .container .text-section .small-line {
+
+    font-family: var(--first-font);
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.landing .container .text-section .sup-line {
+
+    font-family: var(--first-font);
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+/* end landing section */
