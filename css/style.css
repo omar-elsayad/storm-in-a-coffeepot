@@ -110,3 +110,32 @@
 }
 
 /* end landing section */
+
+
+/* start about us section */
+
+.about-us .container {
+    min-height: 600px;
+}
+
+.about-us .container .text-section .big-line {
+    color: var(--main-color);
+    font-family: var(--sec-font);
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.about-us .container .text-section .small-line {
+    color: var(--sup-color);
+    font-family: var(--first-font);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.about-us .container .img-section {
+    max-width: 500px;
+    overflow: hidden;
+}
+
+/* end about us section */
