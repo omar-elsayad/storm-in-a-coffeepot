@@ -68,7 +68,7 @@
 
 .landing .background {
     position: absolute;
-    background-image: url("../images/landing3.jpg");
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/storm-in-a-coffeepot-2e8c7.appspot.com/o/landing3.jpg?alt=media&token=0c5a653e-f667-4040-863c-7f0c6cccad9a");
     background-size: cover;
     background-position: center;
     filter: brightness(40%);
@@ -88,7 +88,7 @@
 }
 
 .landing .container .text-section .big-line {
-    color: var(--main-color);
+    color: #d4882a;
     font-family: var(--sec-font);
     font-size: 60px;
     font-weight: 700;
